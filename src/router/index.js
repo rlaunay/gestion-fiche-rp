@@ -5,7 +5,13 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: '/', component: () => import('@/views/HomeView.vue') },
-  { path: '/fiches', component: () => import('@/views/FichesView') },
+  { path: '/fiches', component: () => import('@/views/FichesView'), children:
+    [
+      { path: '', component: () => import('@/views/FichesView/FicheList') },
+      { path: 'new', component: () => import('@/views/FichesView/FicheEdit') },
+      { path: ':id', component: () => import('@/views/FichesView/FicheDetails') },
+    ]
+  },
   { path: '/rp-list', component: () => import('@/views/RpListView') },
 ];
 

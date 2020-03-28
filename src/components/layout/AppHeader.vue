@@ -7,11 +7,11 @@
             </v-toolbar-title>
             <v-spacer />
 <!--            <v-btn text color="green" class="ma-1 hidden-xs-only">Créer un compte <v-icon right>mdi-account-plus</v-icon></v-btn>-->
-<!--            <v-btn color="green" class="ma-1 hidden-sm-and-up" small fab><v-icon>mdi-account-plus</v-icon></v-btn>-->
+<!--            <v-btn color="green" class="ma-1 hidden-sm-and-up" icon><v-icon>mdi-account-plus</v-icon></v-btn>-->
 <!--            <v-btn text color="green" class="ma-1 hidden-xs-only">Se connecter <v-icon right>mdi-login</v-icon></v-btn>-->
-<!--            <v-btn color="green" class="ma-1 hidden-sm-and-up" small fab><v-icon>mdi-login</v-icon></v-btn>-->
+<!--            <v-btn color="green" class="ma-1 hidden-sm-and-up" icon><v-icon>mdi-login</v-icon></v-btn>-->
             <v-btn text color="green" class="ma-1 hidden-xs-only">Se deconnecter <v-icon right>mdi-logout</v-icon></v-btn>
-            <v-btn color="green" class="ma-1 hidden-sm-and-up" small fab><v-icon>mdi-logout</v-icon></v-btn>
+            <v-btn color="green" class="ma-1 hidden-sm-and-up" icon><v-icon>mdi-logout</v-icon></v-btn>
         </v-app-bar>
         <v-navigation-drawer app v-model="drawer" color="green">
             <app-nav />

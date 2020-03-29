@@ -11,9 +11,9 @@
 import AppHeader from "@/components/layout/AppHeader";
 
 export default {
-name: 'App',
-components: {
-  AppHeader,
-},
+  name: 'App',
+  components: {
+    AppHeader,
+  },
 };
 </script>

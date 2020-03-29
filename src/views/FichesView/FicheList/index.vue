@@ -33,28 +33,8 @@
 export default {
     data() {
         return {
-            fiches: [
-                { id: 1, fullName: 'Rémi Launay', name: 'Launay', firstName: 'Rémi', rpId: '2' },
-                { id: 2, fullName: 'Clémence Landais', name: 'Landais', firstName: 'Clémence', rpId: '2' },
-                { id: 3, fullName: 'Nicolas Pelletant', name: 'Pelletant', firstName: 'Nicolas', rpId: '1' },
-                { id: 4, fullName: 'Aubry Roussel', name: 'Roussel', firstName: 'Aubry', rpId: 'none' },
-                { id: 5, fullName: 'Anthony Morin', name: 'Morin', firstName: 'Anthony', rpId: '3' },
-                { id: 6, fullName: 'Victor Alliot', name: 'Alliot', firstName: 'Victor', rpId: '4' },
-            ],
-            rpList: [
-                { id: 1, name: 'Rp 1' },
-                { id: 2, name: 'Rp 2' },
-                { id: 3, name: 'Rp 3' },
-                { id: 4, name: 'Rp 4' },
-                { id: 5, name: 'Rp 4' },
-                { id: 6, name: 'Rp 4' },
-                { id: 7, name: 'Rp 4' },
-                { id: 8, name: 'Rp 4' },
-                { id: 9, name: 'Rp 4' },
-                { id: 10, name: 'Rp 4' },
-                { id: 11, name: 'Rp 4' },
-                { id: 12, name: 'Rp 4' },
-            ],
+            fiches: [],
+            rpList: [],
             selectedRp: 'all',
             selectedName: '',
         }
